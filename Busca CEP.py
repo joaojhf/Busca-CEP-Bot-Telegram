@@ -2,7 +2,7 @@ import telebot
 import requests
 
 # Token do Bot do Telegram
-token = 'token'
+token = '5780284825:AAFitvLWa9KF7jrZyu8oKscdd6bXagps7kE'
 bot = telebot.TeleBot(token)
 
 # Função para validar o CEP
