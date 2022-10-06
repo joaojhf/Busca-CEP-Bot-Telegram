@@ -26,7 +26,7 @@ def funcao_cep(mensagem):
         bairro = dic_requisicao['bairro']
         cidade = dic_requisicao['localidade']
         uf = dic_requisicao['uf']
-        endereco = 'Endereço: ' + logradouro + ' \n' + 'Bairro: ' + bairro + ' \n' + 'Cidade: ' + cidade + ' \n' + 'UF: ' + uf
+        endereco = 'Logradouro: ' + logradouro + ' \n' + 'Bairro: ' + bairro + ' \n' + 'Cidade: ' + cidade + ' \n' + 'UF: ' + uf
         print(endereco)
         bot.reply_to(mensagem, endereco)
     else:
